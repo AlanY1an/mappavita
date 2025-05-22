@@ -4,6 +4,9 @@
 
 <div align="center">
   <img src="src/2.jpg" alt="Onboarding Screen 2" width="300"/>
+</div>
+
+<div align="center">
   <img src="src/3.jpg" alt="Onboarding Screen 3" width="300"/>
 </div>
 
