@@ -45,27 +45,25 @@ MemoriesView
 AchievementsView
 ProfileView (settings, logout, manage permissions)
 
----
-
-## App Struc
+## App Structure
 
 ```swift
 MappaVitaApp/
 │
-├── Core/                    # 核心服务和管理器（如定位、同步）
+├── Core/                    # Core services and managers (location, sync)
 │   ├── LocationManager.swift
 │   ├── PhotoLocationManager.swift
 │   ├── AuthManager.swift
 │   ├── CloudSyncManager.swift (optional)
 │
-├── Models/                   # 数据模型
+├── Models/                   # Data models
 │   ├── Place.swift
 │   ├── Photo.swift
 │   ├── Memory.swift
 │   ├── Achievement.swift
 │   ├── User.swift
 │
-├── Views/                    # 所有界面
+├── Views/                    # All interfaces
 │   ├── SplashScreen/
 │   │   ├── SplashView.swift
 │   ├── Onboarding/
@@ -91,7 +89,7 @@ MappaVitaApp/
 │   │   │   ├── ProfileView.swift
 │   │   │   ├── SettingsView.swift
 │
-├── ViewModels/               # 每个界面的逻辑（MVVM）
+├── ViewModels/               # Logic for each interface (MVVM)
 │   ├── SplashViewModel.swift
 │   ├── OnboardingViewModel.swift
 │   ├── AuthViewModel.swift
@@ -101,24 +99,32 @@ MappaVitaApp/
 │   ├── AchievementsViewModel.swift
 │   ├── ProfileViewModel.swift
 │
-├── Services/                 # Firebase/Storage/Networking抽象
+├── Services/                 # Firebase/Storage/Networking abstractions
 │   ├── FirebaseService.swift
 │   ├── StorageService.swift
 │   ├── GeoCodingService.swift
 │
-├── Utilities/                # 工具类
+├── Utilities/                # Utility classes
 │   ├── Extensions/
 │   │   ├── UIImage+Resize.swift
 │   │   ├── CLLocation+Distance.swift
 │   ├── Constants.swift
 │   ├── Helpers.swift
 │
-├── Resources/                # 静态资源
+├── Resources/                # Static resources
 │   ├── Assets.xcassets
-│   ├── Localization/         # 如果考虑多语言
+│   ├── Localization/         # For multi-language support
 │
-├── MappaVitaApp.swift         # App入口
+├── MappaVitaApp.swift         # App entry point
 │
 └── Info.plist
 
 ```
+
+## Screenshots
+
+### Onboarding Screens
+
+![Onboarding Screen 1](src/1.jpg)
+![Onboarding Screen 2](src/2.jpg)
+![Onboarding Screen 3](src/3.jpg)
