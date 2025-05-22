@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>MappaVita needs your location to show you on the map and track your visited places.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>MappaVita needs your location to track your visited places even when the app is in the background.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>MappaVita needs access to your photo library to find photos with location data.</string>
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>location</string>
+    </array>
+</dict>
+</plist>
