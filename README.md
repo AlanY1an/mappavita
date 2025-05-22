@@ -1,9 +1,25 @@
 # MappaVita – A Travel Journal App to record your journal
 
+## Environment Setup
+
+1. Create a `.env` file in the root directory with your Google API key:
+
+```
+GOOGLE_API_KEY=your_api_key_here
+```
+
+2. Copy `GoogleService-Info.template.plist` to `GoogleService-Info.plist` and update the API key:
+
+```bash
+cp GoogleService-Info.template.plist GoogleService-Info.plist
+```
+
+3. Update the API key in `GoogleService-Info.plist` with your key from the `.env` file.
+
 ## Screenshots
 
 <div align="center">
-  <img src="src/2.jpg" alt="Onboarding Screen 2" width="50%"/>
+  <img src="src/2.jpg" alt="Onboarding Screen 2" width="5https://github.com/AlanY1an/mappavita/blob/206406aaa99d6154bf3c3004ab40ca5f89aa2f9c/MappaVita/GoogleService-Info.plist0%"/>
 </div>
 
 <div align="center">

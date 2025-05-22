@@ -93,4 +93,8 @@ iOSInjectionProject/
 .DS_Store
 
 # Present folder
-Present/ 
+Present/
+
+# Environment variables
+.env
+GoogleService-Info.plist 
