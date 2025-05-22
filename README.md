@@ -3,7 +3,7 @@
 ## Screenshots
 
 <div align="center">
-  <img src="src/2.jpg" alt="Onboarding Screen 2" width="100%"/>
+  <img src="src/2.jpg" alt="Onboarding Screen 2" width="50%"/>
 </div>
 
 <div align="center">
