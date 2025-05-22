@@ -1,5 +1,12 @@
 # MappaVita – A Travel Journal App to record your journal
 
+## Screenshots
+
+<div align="center">
+  <img src="src/2.jpg" alt="Onboarding Screen 2" width="300"/>
+  <img src="src/3.jpg" alt="Onboarding Screen 3" width="300"/>
+</div>
+
 ## Problem Statement:
 
 Traveling is an enriching experience in my life, but over time, it becomes difficult to remember all the places we have visited, the memories we have made, and the stories behind the each location. So I want to make an application to interactive visualization of travel history and location-based memory with photos.
@@ -108,8 +115,8 @@ MappaVitaApp/
 │   ├── Extensions/
 │   │   ├── UIImage+Resize.swift
 │   │   ├── CLLocation+Distance.swift
-│   ├── Constants.swift
-│   ├── Helpers.swift
+│   │   ├── Constants.swift
+│   │   ├── Helpers.swift
 │
 ├── Resources/                # Static resources
 │   ├── Assets.xcassets
@@ -120,11 +127,3 @@ MappaVitaApp/
 └── Info.plist
 
 ```
-
-## Screenshots
-
-### Onboarding Screens
-
-![Onboarding Screen 1](src/1.jpg)
-![Onboarding Screen 2](src/2.jpg)
-![Onboarding Screen 3](src/3.jpg)
